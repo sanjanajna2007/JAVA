@@ -24,6 +24,7 @@ public class iteration {
         else{
             System.out.println("congratss you failed");
         }
+        sc.close();
         
     }
    
