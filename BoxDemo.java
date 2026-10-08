@@ -1,5 +1,4 @@
 class Box {
-
     String name;
     int age;
     int marks;
@@ -13,14 +12,9 @@ class Box {
         System.out.println("Age: " + age);
         System.out.println("Marks: " + marks);
     }
-
-    void oops() {
-        System.out.println("Name: " + name);
-    }
 }
 
 public class BoxDemo {
-
     public static void main(String[] args) {
 
         Box box1 = new Box();
@@ -36,10 +30,8 @@ public class BoxDemo {
 
         box1.display();
         box1.study();
-        box1.oops();
 
         box2.display();
         box2.study();
-        box2.oops();
     }
 }
