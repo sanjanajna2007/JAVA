@@ -1,25 +1,25 @@
-// abstract class animal {
-//     abstract void sound();
+abstract class animal {
+    abstract void sound();
 
     
-// }
-// class dog extends animal {
-//     void sound() {
-//         System.out.println("dog id barking");
-//         System.out.println("what else is there");
-//     }
-// }
+}
+class dog extends animal {
+    void sound() {
+        System.out.println("dog id barking");
+        System.out.println("what else is there");
+    }
+}
 
-// public class abstracts {
-//     public static void main(String[] args) {
-//         System.out.println("what else is there");
-//         dog d1 = new dog();
-//         d1.sound();
+public class abstracts {
+    public static void main(String[] args) {
+        System.out.println("what else is there");
+        dog d1 = new dog();
+        d1.sound();
 
         
-//     }
+    }
     
-// }
+}
 
 
 // learning abstraction
