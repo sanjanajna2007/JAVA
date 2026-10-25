@@ -23,13 +23,31 @@ public class Final {
     
     // }
     public static void main(String[] args) {
-        int age = 19;
+        // int age = 19;
 
-        if (age<18){
-            throw new ArithmeticException("not eligible");
+        // if (age<18){
+        //     throw new ArithmeticException("not eligible");
 
-        }
-        System.out.println("program continues");
+        // }
+        // System.out.println("program continues");
+
+            try{
+                System.out.println("outer try is started");
+                try{
+                int a = 10;
+                int b=0;
+
+                System.out.println(a/b);
+                }catch(ArithmeticException e){
+                    System.out.println("division by zero is not possible");
+
+                }
+
+                System.out.println("outer try is continued");
+
+            }catch(Exception e){
+                System.out.println("outer catch is executed");
+            }
     }
    
     
