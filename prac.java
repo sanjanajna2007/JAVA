@@ -8,6 +8,7 @@
 
 //     }
 // }
+
 interface father{
     void property();
 
